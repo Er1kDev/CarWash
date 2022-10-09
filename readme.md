@@ -1,1 +1,1 @@
-Carwash es una pagina dedicada a la promocion de lavado de autos
+Pagina dedicada al lavado de Automóviles Básicos & Full🚘
