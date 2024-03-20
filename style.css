@@ -84,14 +84,12 @@ body {
 
 .instagram .fab {
   background: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background: radial-gradient(circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -113,10 +111,47 @@ body {
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
+
   z-index: 100;
+}
+
+.float:hover {
+  color: white;
+
+  transform: scale(1.05);
+
 }
 
 .my-float {
   margin-top: 16px;
 }
+
 /* ----------- */
+
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 50%;
+  opacity: 0;
+  /* El botón estará oculto por defecto */
+  transition: 0.3s ease-in-out;
+}
+
+.show-button {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.fixed-button:hover {
+  color: white;
+  background-color: red;
+}
+
+/* 
+Estilo Img
+*/
