@@ -2,224 +2,146 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="assets/img/car-img-title.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CarWash Black</title>
-
-    <link rel="stylesheet" href="style.css">
-
-
-
-    <!--FONTS GOOGLE-->
+    <title>Pagina X</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- -->
-
-    <!--CDN BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <script src="https://kit.fontawesome.com/115e971044.js" crossorigin="anonymous"></script>
-    <!-- -->
-
-    <!-- animate.css -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
 
 <body>
 
-    <!-- INICIO MENU CARWASH -->
-    <header>
 
-        <nav class="navbar navbar-expand-md bg-black" id="goUp">
-            <div class="container mt-2 mb-2">
-                <a href="#" class="navbar-brand">
-                    <img class="img-fluid logo-img" src="./assets/img/logo2.png" alt="img-page">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-toggler"
-                    aria-controls="menu-toggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span> <i class="bi bi-three-dots-vertical"></i></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="menu-toggler">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
 
-                        <li class="nav-item px-3">
-                            <a class="btn-menu nav-link active text-light raleway-font" aria-current="page"
-                                href="#servicios">Servicios</a>
-                        </li>
-                    </ul>
+    <div class="hero-section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" id="goUp">
+                <div class="container-fluid flex-lg-row flex-column justify-content-center">
+                    <a class="navbar-brand text-white fs-1 poppins-semibold " href="#">CarWash Black</a>
+                </div>
+            </nav>
+        </div>
 
+        <div
+            class="container margin-title text-center d-flex flex-column justify-content-center align-items-center h-50">
+            <p class="poppins-semibold display-2">Lavado de Automóviles</p>
+            <a class="btn btn-outline-light btn-lg my-3 poppins-bold" href="#precios">Ver Precios</a>
+        </div>
+    </div>
+    <div class="container-fluid poppins-regular">
+        <div class="row bg-black text-white py-5">
+            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+                <p class="text-center display-2">Servicios</p>
+                <p class="text-center display-4 text-uppercase">Lavado Full Incluye</p>
+                <p class="text-center fs-1 text-uppercase">Interior Completo + Silicona</p>
+                <p class="text-center fs-1 text-uppercase">Exterior Completo + Renovador</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="precios">
+            <div class="col-md-6 order-last order-md-first img-moto">
+            </div>
+            <div
+                class="text-white text-center order-first order-md-last  py-5 col-md-6 bg-gradient-black d-flex flex-column justify-content-center align-items-center order-1 order-md-2">
+                <p class="display-4 poppins-regular">Motocicletas Enduros</p>
+                <p class="display-5 poppins-bold">$13.000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 order-last img-automovil">
+
+            </div>
+            <div
+                class="text-white text-center order-first py-5 col-md-6 bg-gradient-black d-flex flex-column justify-content-center align-items-center order-1 order-md-2">
+                <p class="display-4 poppins-regular">Automóviles</p>
+                <p class="display-5 poppins-bold">$18.000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 order-last order-md-first img-suvjeep">
+
+            </div>
+            <div
+                class="text-white text-center order-first order-md-last py-5 col-md-6 bg-gradient-black d-flex flex-column justify-content-center align-items-center order-1 order-md-2">
+                <p class="display-4 poppins-regular">Suv o Jeep</p>
+                <p class="display-5 poppins-bold">$23.000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 order-last img-camioneta">
+
+            </div>
+            <div
+                class="text-white text-center order-first py-5 col-md-6 bg-gradient-black d-flex flex-column justify-content-center align-items-center order-1 order-md-2">
+                <p class="display-4 poppins-regular">Camionetas</p>
+                <p class="display-5 poppins-bold">$28.000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 order-last order-md-first img-camionetaxl">
+
+            </div>
+            <div
+                class="text-white text-center order-first order-md-last py-5 col-md-6 bg-gradient-black d-flex flex-column justify-content-center align-items-center order-1 order-md-2">
+                <p class="display-4 poppins-regular">Camionetas XL</p>
+                <p class="display-5 poppins-bold">$33.000</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="container-fluid poppins-regular">
+        <div class="row bg-black text-white py-5">
+            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+                <p class="mb-1 fs-4 text-center">Desarrollado por Er1kDev &copy; 2024</p>
+                <div class="pt-2">
+                    <a href="https://www.facebook.com/profile.php?id=100086680427768&mibextid=ZbWKwL" target="_blank"
+                        class="text-white mx-2 fs-5 "><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="https://www.instagram.com/carwash__black/" target="_blank" class="text-white mx-2 fs-5 "><i
+                            class="fab fa-instagram fa-2x"></i></a>
                 </div>
             </div>
-        </nav>
-
-    </header>
-    <!-- FIN MENU CARWASH -->
-    <main>
-
-        <!-- INICIO CONTENIDO PRESENTACION -->
-        <section class="bg-presentacion">
-            <article class="bg-black-presentacion py-5">
-                <div class="container">
-                    <div class="row align-items-center">
-
-                        <div class="shadow-lg col-12 col-md-12">
-
-                            <div class="ratio ratio-16x9">
-                                <video class="img-fluid" id="videoPresentacion" loop muted
-                                    src="assets/video/carwash.mp4"></video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <!-- FIN CONTENIDO PRESENTACION -->
-        <div class="bg-divider bg-black"></div>
-
-        <!-- INICIO CONTENIDO PRECIOS -->
-        <section class="bg-black">
-            <article>
-                <div class="container">
-                    <p data-aos="fade-right" class="display-3 text-center raleway-font text-light" id="servicios">
-                        Servicios</p>
-                    <div data-aos="fade-right" class="container d-flex flex-column align-items-center raleway-font">
-                        <p class="h2 text-uppercase text-center mb-4 text-light">Lavado Full Incluye</p>
-                        <ul class="list-unstyled">
-                            <li class="text-center">
-                                <p class="fs-4 text-light">
-                                    <i class="bi bi-award-fill"></i>
-                                    Interior Completo + Silicona
-                                    <i class="bi bi-award-fill"></i>
-                                </p>
-                            </li>
-                            <li class="text-center">
-                                <p class="fs-4 text-light">
-                                    <i class="bi bi-award-fill"></i>
-                                    Exterior Completo + Renovador
-                                    <i class="bi bi-award-fill"></i>
-                                </p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="row mt-4">
-
-                        <div data-aos="zoom-in" class="col-12 col-md-3 mb-3">
-                            <div class="card h-100">
-                                <img src="assets/img/moto.jpg" class="card-img-top img-fluid h-100" alt="">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center card-title">Motocicletas Enduros</p>
-                                    <h2 class="display-5 text-center card-text">$13.000</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div data-aos="zoom-in" class="col-12 col-md-3 mb-3">
-                            <div class="card h-100">
-                                <img src="assets/img/automovil.jpg" class="card-img-top img-fluid h-100" alt="">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center card-title">Automóviles</p>
-                                    <h2 class="display-5 text-center card-text">$18.000</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div data-aos="zoom-in" class="col-12 col-md-3 mb-3">
-                            <div class="card h-100">
-                                <img src="assets/img/carsub.jpeg" class="card-img-top img-fluid h-100" alt="">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center card-title">Suv o Jeep</p>
-                                    <h2 class="display-5 text-center card-text">$23.000</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div data-aos="zoom-in" class="col-12 col-md-3 mb-3">
-                            <div class="card h-100">
-                                <img src="assets/img/jeep.jpeg" class="card-img-top img-fluid h-100" alt="">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center card-title">Camionetas 4x4</p>
-                                    <h2 class="display-5 text-center card-text">$28.000</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div data-aos="zoom-in" class="col-12 col-md-3 mb-3">
-                            <div class="card h-100">
-                                <img src="assets/img/camionetas.jpg" class="card-img-top img-fluid h-100" alt="">
-                                <div class="card-body">
-                                    <p class="fw-bold text-center card-title">Camionetas XL</p>
-                                    <h2 class="display-5 text-center card-text">$33.000</h2>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-            </article>
-        </section>
-        <!-- FIN CONTENIDO PRECIOS -->
-        <div class="bg-divider bg-black"></div>
-    </main>
-
-    <!-- INICIO FOOTER -->
-
-    <footer class="bg-black raleway-font">
-        <div class="bg-divider"></div>
-        <div class="container">
-            <h2 class="text-center text-light">Redes Sociales</h2>
-            <ul class="nav justify-content-center pb-3 mb-3">
-                <li class="nav-item">
-                    <a href="https://www.instagram.com/carwash__black/" class="nav-link px-2 text-light "
-                        target="_blank">
-                        <p class="instagram">
-                            <i class="fab fa-instagram fa-3x"></i>
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.facebook.com/profile.php?id=100086680427768&mibextid=ZbWKwL"
-                        class="nav-link px-2 text-primary" target="_blank">
-                        <i class="fab fa-facebook-square fa-3x"></i>
-                    </a>
-                </li>
-            </ul>
-            <p class="text-center text-light">Desarrollado por Er1kDev &copy; 2024 </p>
         </div>
-        <div class="bg-divider"></div>
+
     </footer>
-    <!-- FIN FOOTER -->
 
-    <!-- INICIO BOTON WHATSAPP -->
-    <a href="https://api.whatsapp.com/send?phone=56939570405" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
+    <a href="https://api.whatsapp.com/send?phone=56939570405" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
     </a>
-    <!-- FIN BOTON WHATSAPP -->
 
-
-    <!-- BOTON FIJO -->
     <a href="#goUp" class="fixed-button" id="scrollButton">
         <i class="fa fa-arrow-up fa-sm"></i>
     </a>
-    <!-- BOTON FIJO  -->
 
-    <script src="index.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- Boton de Whatsapp al lado derecho fixed-->
+
+    <script>
+        const scrollButton = document.getElementById('scrollButton');
+
+        function toogleButton() {
+            if (window.scrollY >= document.documentElement.scrollHeight / 2) {
+                scrollButton.classList.add('show-button');
+            } else {
+                scrollButton.classList.remove('show-button');
+            }
+        }
+
+        window.addEventListener('scroll', toogleButton);
+    </script>
+
 </body>
 
 </html>

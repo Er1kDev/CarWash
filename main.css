@@ -1,0 +1,146 @@
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.hero-section {
+  background-image: url(assets/img/bg-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.fs-custom-h1 {
+  font-size: 3.5rem;
+}
+
+.margin-title {
+  margin-top: 5rem !important;
+}
+
+.img-moto {
+  background-image: url(assets/img/moto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+
+.img-automovil {
+  background-image: url(assets/img/automovil.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.img-suvjeep {
+  background-image: url(assets/img/suvojeep.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.img-camioneta {
+  background-image: url(assets/img/jeep.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.img-camionetaxl {
+  background-image: url(assets/img/camionetas.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+
+
+.bg-gradient-black {
+  background: rgb(10, 10, 10);
+  background: linear-gradient(0deg, rgba(10, 10, 10, 0.98) 0%, rgba(10, 10, 10, 1) 100%);
+}
+
+/* Fonts */
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float .my-float {
+  margin-top: 16px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 6px #666;
+}
+
+.whatsapp-float:active {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 2px #333;
+}
+
+.whatsapp-float .my-float {
+  margin-top: 16px;
+}
+
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 50%;
+  opacity: 0;
+  /* El botón estará oculto por defecto */
+  transition: 0.3s ease-in-out;
+}
+
+.fixed-button:hover {
+  color: white;
+  background-color: red;
+}
+
+.show-button {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
